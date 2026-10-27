@@ -3,7 +3,7 @@ $config = require __DIR__ . '/config.local.php';
 
 try {
     $pdo = new PDO(
-        "mysql:host={$config['host']};dbname={$config['banco']};charset=utf8mb4",
+        "mysql:host={$config['host']};port={$config['port']};dbname={$config['banco']};charset=utf8mb4",
         $config['usuario'],
         $config['senha'],
     );

@@ -1,0 +1,66 @@
+
+/* Aparência geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #263238;
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1000px;
+}
+
+/* Títulos */
+h1 {
+    color: #19376d;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #19376d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f4fa;
+}
+
+/* Campos dos formulários */
+input {
+    padding: 10px;
+    margin: 6px 8px 12px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+/* Botões */
+button {
+    background-color: #19376d;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2856a0;
+}
+
+/* Links */
+a {
+    color: #2056a5;
+    margin-right: 10px;
+}
